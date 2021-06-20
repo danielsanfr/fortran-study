@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: quadrado latino - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "E:\DOCUME~1\San\LOCALS~1\Temp\RSP201.tmp" with contents
+[
+/check:bounds /compile_only /debug:full /libs:qwin /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90"
+]
+Creating temporary file "E:\DOCUME~1\San\LOCALS~1\Temp\RSP202.tmp" with contents
+[
+kernel32.lib /nologo /entry:"WinMainCRTStartup" /subsystem:windows /incremental:no /pdb:"Debug/quadrado latino.pdb" /debug /machine:I386 /nodefaultlib:"dfconsol.lib" /out:"Debug/quadrado latino.exe" /pdbtype:sept 
+".\Debug\3x3.obj"
+".\Debug\Script1.res"
+]
+Creating command line "link.exe @E:\DOCUME~1\San\LOCALS~1\Temp\RSP202.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(71) : Error: Syntax error, found IDENTIFIER 'A' when expecting one of: ( * :: , <END-OF-STATEMENT> ; : ) + . - % (/ [ ] /) ' . ** / > ...
+   a(4) == a(5).OR.a(5) == a(6).OR.a(4) == a(6)&
+----------^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(72) : Error: Syntax error, found IDENTIFIER 'A' when expecting one of: ( * :: , <END-OF-STATEMENT> ; : ) + . - % (/ [ ] /) ' . ** / > ...
+   a(7) == a(8).OR.a(8) == a(9).OR.a(7) == a(9)&
+----------^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(73) : Error: Syntax error, found IDENTIFIER 'A' when expecting one of: ( * :: , <END-OF-STATEMENT> ; : ) + . - % (/ [ ] /) ' . ** / > ...
+   a(1) == a(4).OR.a(4) == a(7).OR.a(1) == a(3)&
+----------^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(74) : Error: Syntax error, found IDENTIFIER 'A' when expecting one of: ( * :: , <END-OF-STATEMENT> ; : ) + . - % (/ [ ] /) ' . ** / > ...
+   a(1) == a(2).OR.a(2) == a(3).OR.a(1) == a(3)&
+----------^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(75) : Error: Syntax error, found IDENTIFIER 'A' when expecting one of: ( * :: , <END-OF-STATEMENT> ; : ) + . - % (/ [ ] /) ' . ** / > ...
+   a(1) == a(2).OR.a(2) == a(3).OR.a(1) == a(3)) then
+----------^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(75) : Error: Syntax error, found ')' when expecting one of: :
+   a(1) == a(2).OR.a(2) == a(3).OR.a(1) == a(3)) then
+------------------------------------------------------^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(86) : Error: Syntax error, found END-OF-FILE when expecting one of: <LABEL> <END-OF-STATEMENT> ; BLOCK BLOCKDATA PROGRAM TYPE COMPLEX BYTE CHARACTER ...
+
+^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(9) : Error: This IMPLICIT statement is not positioned correctly within the scoping unit.
+implicit none
+^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(34) : Error: There is no matching specific function for this generic function reference.   [DLGGET]
+   retlog = dlgget(dlg,idc_edit1,text) !obtenha o texto de edit1
+------------^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(38) : Error: There is no matching specific function for this generic function reference.   [DLGGET]
+   retlog = dlgget(dlg,idc_edit2,text) !obtenha o texto de edit2
+------------^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(42) : Error: There is no matching specific function for this generic function reference.   [DLGGET]
+   retlog = dlgget(dlg,idc_edit3,text) !obtenha o texto de edit3
+------------^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(46) : Error: There is no matching specific function for this generic function reference.   [DLGGET]
+   retlog = dlgget(dlg,idc_edit4,text) !obtenha o texto de edit3
+------------^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(50) : Error: There is no matching specific function for this generic function reference.   [DLGGET]
+   retlog = dlgget(dlg,idc_edit5,text) !obtenha o texto de edit3
+------------^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(54) : Error: There is no matching specific function for this generic function reference.   [DLGGET]
+   retlog = dlgget(dlg,idc_edit6,text) !obtenha o texto de edit3
+------------^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(58) : Error: There is no matching specific function for this generic function reference.   [DLGGET]
+   retlog = dlgget(dlg,idc_edit7,text) !obtenha o texto de edit3
+------------^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(62) : Error: There is no matching specific function for this generic function reference.   [DLGGET]
+   retlog = dlgget(dlg,idc_edit8,text) !obtenha o texto de edit3
+------------^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(66) : Error: There is no matching specific function for this generic function reference.   [DLGGET]
+   retlog = dlgget(dlg,idc_edit9,text) !obtenha o texto de edit3
+------------^
+E:\Documents and Settings\San\My Documents\Fortran\quadrado latino\3x3.f90(30) : Error: An unterminated block exists.
+   if(iret == 1) then
+^
+Error executing df.exe.
+
+
+
+<h3>Results</h3>
+quadrado latino.exe - 18 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,4 @@
+09geladeira 18radios    03tvlcd     02computador
+07monitor   08cadeiras  05bolsas    14quadro    
+09geladeira 18radios    03tvlcd     02computador
+07monitor   08cadeiras  05bolsas    14quadro

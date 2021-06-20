@@ -1,0 +1,127 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Portuguese (Brazil) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
+#ifdef _WIN32
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 287, 150
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "CI NE555"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&Calcular",IDOK,223,70,50,14
+    PUSHBUTTON      "&Sair",IDCANCEL,223,118,50,14
+    EDITTEXT        IDC_EDIT2,24,38,73,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT3,107,38,73,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT4,192,38,73,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    LTEXT           "Ra (kohms)",IDC_STATIC,25,28,37,8
+    LTEXT           "Rb (kohms)",IDC_STATIC,107,28,37,8
+    LTEXT           "C (uF)",IDC_STATIC,192,28,20,8
+    GROUPBOX        "Componentes de entrada:",IDC_STATIC,14,17,259,40
+    EDITTEXT        IDC_EDIT5,25,82,55,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    LTEXT           "tb (ms)",IDC_STATIC,26,71,22,8
+    LTEXT           "ta (ms)",IDC_STATIC,88,71,22,8
+    LTEXT           "T (ms)",IDC_STATIC,150,71,20,8
+    GROUPBOX        "Valores de saída:",IDC_STATIC,15,63,199,73
+    EDITTEXT        IDC_EDIT6,87,82,55,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT7,149,82,55,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    LTEXT           "f (Hz)",IDC_STATIC,56,100,18,8
+    LTEXT           "f (kHz)",IDC_STATIC,118,100,22,8
+    EDITTEXT        IDC_EDIT8,54,110,55,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT9,116,110,55,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    PUSHBUTTON      "&Zerar",IDZERA,223,94,50,14
+    GROUPBOX        "",IDC_STATIC,7,7,273,136
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 280
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+FRAMEICON               ICON    DISCARDABLE     "frameicon.ico"
+#endif    // Portuguese (Brazil) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

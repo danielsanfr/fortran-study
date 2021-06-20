@@ -1,0 +1,24 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: teste tamanho da string - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "F:\DOCUME~1\DANIEL~1\LOCALS~1\Temp\RSP154.tmp" with contents
+[
+kernel32.lib /nologo /entry:"WinMainCRTStartup" /subsystem:windows /incremental:no /pdb:"Debug/teste tamanho da string.pdb" /debug /machine:I386 /nodefaultlib:"dfconsol.lib" /out:"Debug/teste tamanho da string.exe" /pdbtype:sept 
+".\Debug\teste.obj"
+]
+Creating command line "link.exe @F:\DOCUME~1\DANIEL~1\LOCALS~1\Temp\RSP154.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+teste tamanho da string.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

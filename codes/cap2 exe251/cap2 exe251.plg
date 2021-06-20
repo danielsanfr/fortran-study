@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cap2 exe251 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "F:\DOCUME~1\DANIEL~1\LOCALS~1\Temp\RSP56.tmp" with contents
+[
+/check:bounds /compile_only /debug:full /libs:qwin /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"F:\Documents and Settings\Daniel San\My Documents\Fortran\cap2 exe251\teste.for"
+]
+Creating command line "link.exe kernel32.lib /nologo /entry:"WinMainCRTStartup" /subsystem:windows /incremental:no /pdb:"Debug/cap2 exe251.pdb" /debug /machine:I386 /nodefaultlib:"dfconsol.lib" /out:"Debug/cap2 exe251.exe" /pdbtype:sept  ".\Debug\teste.obj" "
+<h3>Output Window</h3>
+Compiling Fortran...
+F:\Documents and Settings\Daniel San\My Documents\Fortran\cap2 exe251\teste.for
+Linking...
+
+
+
+<h3>Results</h3>
+cap2 exe251.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

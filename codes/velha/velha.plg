@@ -1,0 +1,112 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: velha - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\DANIEL~1\LOCALS~1\Temp\RSP5C.tmp" with contents
+[
+/check:bounds /compile_only /debug:full /libs:qwin /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90"
+]
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(5) : Error: Syntax error, found ',' following statement keyword
+allocatable, integer :: pessoas(:,:)
+------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(5) : Error: Syntax error, found '::' when expecting one of: ( , <END-OF-STATEMENT> ; [
+allocatable, integer :: pessoas(:,:)
+---------------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(86) : Error: This DO variable has already been used as an outer DO variable in the same nesting structure.   [I]
+jog1 = 0 ; jog2 = 0 ; j = 2 ; do 26 i = 1,3
+------------------------------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(96) : Error: This DO variable has already been used as an outer DO variable in the same nesting structure.   [I]
+jog1 = 0 ; jog2 = 0 ; j = 3 ; do 27 i = 1,3
+------------------------------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(106) : Error: This DO variable has already been used as an outer DO variable in the same nesting structure.   [I]
+jog1 = 0 ; jog2 = 0 ; do 28 i = 1,3 ; j = i
+----------------------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(116) : Error: This DO variable has already been used as an outer DO variable in the same nesting structure.   [I]
+jog1 = 0 ; jog2 = 0 ; do 29 i = 1,3
+----------------------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(143) : Error: An assignment to a DO variable within a DO body is invalid.   [I]
+i = mod(casa2-1,3)+1
+^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(159) : Error: An assignment to a DO variable within a DO body is invalid.   [I]
+i = 1 ; do 20 j = 1,3
+^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(159) : Error: This DO construct label has already been defined.   [20]
+i = 1 ; do 20 j = 1,3
+-----------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(160) : Error: This label has been defined more than once.   [20]
+20 if(pessoas(i,j)==2)jog2 = jog2 + 1
+^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(168) : Error: An assignment to a DO variable within a DO body is invalid.   [I]
+jog1 = 0 ; jog2 = 0 ; i = 2 ; do 21 j = 1,3
+----------------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(168) : Error: This DO construct label has already been defined.   [21]
+jog1 = 0 ; jog2 = 0 ; i = 2 ; do 21 j = 1,3
+---------------------------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(170) : Error: This label has been defined more than once.   [21]
+21 if(pessoas(i,j)==2)jog2 = jog2 + 1
+^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(178) : Error: An assignment to a DO variable within a DO body is invalid.   [I]
+jog1 = 0 ; jog2 = 0 ; i = 3 ; do 22 j = 1,3
+----------------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(178) : Error: This DO construct label has already been defined.   [22]
+jog1 = 0 ; jog2 = 0 ; i = 3 ; do 22 j = 1,3
+---------------------------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(180) : Error: This label has been defined more than once.   [22]
+22 if(pessoas(i,j)==2)jog2 = jog2 + 1
+^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(188) : Error: This DO construct label has already been defined.   [23]
+jog1 = 0 ; jog2 = 0 ; j = 1 ; do 23 i = 1,3
+---------------------------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(188) : Error: This DO variable has already been used as an outer DO variable in the same nesting structure.   [I]
+jog1 = 0 ; jog2 = 0 ; j = 1 ; do 23 i = 1,3
+------------------------------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(190) : Error: This label has been defined more than once.   [23]
+23 if(pessoas(i,j)==2)jog2 = jog2 + 1
+^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(198) : Error: This DO variable has already been used as an outer DO variable in the same nesting structure.   [I]
+jog1 = 0 ; jog2 = 0 ; j = 2 ; do 24 i = 1,3
+------------------------------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(208) : Error: This DO construct label has already been defined.   [25]
+jog1 = 0 ; jog2 = 0 ; j = 3 ; do 25 i = 1,3
+---------------------------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(210) : Error: This label has been defined more than once.   [25]
+25 if(pessoas(i,j)==2)jog2 = jog2 + 1
+^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(218) : Error: This DO construct label has already been defined.   [26]
+jog1 = 0 ; jog2 = 0 ; do 26 i = 1,3 ; j = i
+-------------------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(220) : Error: This label has been defined more than once.   [26]
+26 if(pessoas(i,j)==2)jog2 = jog2 + 1
+^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(226) : Warning: A jump into a block from outside the block has occurred.   [25]
+goto 25 ; end if
+-----^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(228) : Error: This DO construct label has already been defined.   [27]
+jog1 = 0 ; jog2 = 0 ; do 27 i = 1,3
+-------------------------^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(234) : Error: This label has been defined more than once.   [27]
+27 if(pessoas(i,j)==2)jog2 = jog2 + 1
+^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(54) : Error: This label is undefined.   [15]
+goto 15 ; end if
+-----^
+C:\Documents and Settings\Daniel San\My Documents\Fortran\velha\prove.f90(5) : Error: This ALLOCATABLE attribute is invalid; the ALLOCATABLE attribute can only be used when declaring array objects.   [INTEGER]
+allocatable, integer :: pessoas(:,:)
+-------------^
+Error executing df.exe.
+
+
+
+<h3>Results</h3>
+prove.obj - 28 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

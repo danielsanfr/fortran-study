@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: teste dialogo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x416 /fo"Debug/Script1.res" /d "_DEBUG" "F:\Documents and Settings\Daniel San\My Documents\Fortran\teste dialogo combo box\Script1.rc"" 
+Creating temporary file "F:\DOCUME~1\DANIEL~1\LOCALS~1\Temp\RSP5A.tmp" with contents
+[
+kernel32.lib /nologo /entry:"WinMainCRTStartup" /subsystem:windows /incremental:no /pdb:"Debug/teste dialogo.pdb" /debug /machine:I386 /nodefaultlib:"dfconsol.lib" /out:"Debug/teste dialogo.exe" /pdbtype:sept 
+".\Debug\teste.obj"
+".\Debug\Script1.res"
+]
+Creating command line "link.exe @F:\DOCUME~1\DANIEL~1\LOCALS~1\Temp\RSP5A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+teste dialogo.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

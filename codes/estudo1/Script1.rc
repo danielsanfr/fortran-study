@@ -1,0 +1,175 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Portuguese (Brazil) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
+#ifdef _WIN32
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOG DISCARDABLE  150, 100, 186, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    LTEXT           "Valor Médio: VM =",IDC_STATIC,15,39,60,10
+    LTEXT           "Desvio Padrão =",IDC_STATIC,15,57,56,9
+    LTEXT           "Static",IDC_STATIC1,78,39,31,7
+    LTEXT           "Static",IDC_STATIC2,74,57,39,8
+    CONTROL         104,IDC_STATIC,"Static",SS_BITMAP,131,44,15,13
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 186, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Equação do 2º grau"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    LTEXT           "A =",IDC_STATIC,15,20,12,9
+    LTEXT           "B =",IDC_STATIC,15,43,12,8
+    LTEXT           "C =",IDC_STATIC,15,66,14,8
+    EDITTEXT        IDC_EDIT1,34,17,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,34,38,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,34,60,40,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 222, 90
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Equação do 2º  grau"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,165,7,50,14
+    GROUPBOX        "Resultado",IDC_STATIC,7,7,148,76
+    GROUPBOX        "Raizes",IDC_STATIC,14,18,133,59
+    CONTROL         104,IDC_STATIC,"Static",SS_BITMAP,170,36,38,36
+    LTEXT           "x1 =",IDC_STATIC,19,47,17,9
+    LTEXT           "x2 =",IDC_STATIC,19,62,17,9
+    LTEXT           "Static",IDC_STATIC2,40,46,100,10
+    LTEXT           "Static",IDC_STATIC3,40,61,104,9
+    LTEXT           "Static",IDC_STATIC1,19,31,43,10
+END
+
+IDD_DIALOG4 DIALOG DISCARDABLE  0, 0, 186, 76
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Equação do 2º grau"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    GROUPBOX        "Resultado",IDC_STATIC,13,7,94,62
+    GROUPBOX        "Rais real",IDC_STATIC,18,18,82,43
+    LTEXT           "x1 =",IDC_STATIC,23,39,14,8
+    LTEXT           "Static",IDC_STATIC1,43,39,43,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 69
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP2             BITMAP  DISCARDABLE     "bitmap2.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Portuguese (Brazil) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

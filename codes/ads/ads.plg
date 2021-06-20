@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ads - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Script1.res" /d "_DEBUG" "C:\Documents and Settings\Futuro\Meus documentos\Fortran1\ads\Script1.rc"" 
+Creating command line "link.exe kernel32.lib /nologo /entry:"WinMainCRTStartup" /subsystem:windows /incremental:no /pdb:"Debug/ads.pdb" /debug /machine:I386 /nodefaultlib:"dfconsol.lib" /out:"Debug/ads.exe" /pdbtype:sept  ".\Debug\754.obj" ".\Debug\Script1.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Linking...
+
+
+
+<h3>Results</h3>
+ads.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

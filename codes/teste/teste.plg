@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: teste - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\DANIEL~1\LOCALS~1\Temp\RSP6F.tmp" with contents
+[
+kernel32.lib /nologo /entry:"WinMainCRTStartup" /subsystem:windows /incremental:no /pdb:"Debug/teste.pdb" /debug /machine:I386 /nodefaultlib:"dfconsol.lib" /out:"Debug/teste.exe" /pdbtype:sept 
+".\Debug\esplod.obj"
+".\Debug\mov.obj"
+".\Debug\movimento.obj"
+".\Debug\teste_animacao.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\DANIEL~1\LOCALS~1\Temp\RSP6F.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+teste.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

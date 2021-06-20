@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: teste2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\DANIEL~1\LOCALS~1\Temp\RSP65.tmp" with contents
+[
+kernel32.lib /nologo /entry:"WinMainCRTStartup" /subsystem:windows /incremental:no /pdb:"Debug/teste2.pdb" /debug /machine:I386 /nodefaultlib:"dfconsol.lib" /out:"Debug/teste2.exe" /pdbtype:sept 
+".\Debug\bordas.obj"
+".\Debug\meteo.obj"
+".\Debug\meteo1.obj"
+".\Debug\meteo2.obj"
+".\Debug\minha_3ºanimacao.obj"
+".\Debug\pred e jan.obj"
+".\Debug\traco.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\DANIEL~1\LOCALS~1\Temp\RSP65.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+teste2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

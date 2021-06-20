@@ -1,0 +1,278 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Portuguese (Brazil) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
+#ifdef _WIN32
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 240, 145
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Assistente para novas listas"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Avançar >",IDOK,130,115,50,14
+    PUSHBUTTON      "&Cancelar",IDCANCEL,59,115,50,14
+    COMBOBOX        IDC_COMBO1,124,93,27,46,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Nº de colunas:",IDC_STATIC,69,96,48,9
+    LTEXT           "Informe o número de colunas da nova lista.",IDC_STATIC,
+                    52,58,137,10
+    LTEXT           "Click Avançar para continuar a criação de uma nova lista,",
+                    IDC_STATIC,31,67,187,10
+    LTEXT           "ou Cancelar para cancelar a criação.",IDC_STATIC,59,77,
+                    117,10
+    CONTROL         111,IDC_STATIC,"Static",SS_BITMAP,17,18,206,33
+    GROUPBOX        "",IDC_STATIC,7,4,226,134
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 275, 162
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Assistente para novas listas"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Concluir",IDOK,146,140,50,14
+    PUSHBUTTON      "&Cancelar",IDCANCEL,78,140,50,14
+    LTEXT           "Nome da Lista:",IDC_STATIC,18,12,48,9
+    EDITTEXT        IDC_EDIT1,69,9,100,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    GROUPBOX        "Títulos das Colunas",IDC_STATIC,11,29,253,105
+    EDITTEXT        IDC_EDIT2,45,41,86,14,ES_AUTOHSCROLL
+    LTEXT           "Títilo 1:",IDC_STATIC,18,44,25,9
+    EDITTEXT        IDC_EDIT3,45,59,86,14,ES_AUTOHSCROLL
+    LTEXT           "Títilo 2:",IDC_STATIC,18,62,25,9
+    EDITTEXT        IDC_EDIT4,45,77,86,14,ES_AUTOHSCROLL
+    LTEXT           "Títilo 3:",IDC_STATIC,18,80,25,9
+    EDITTEXT        IDC_EDIT5,45,95,86,14,ES_AUTOHSCROLL
+    LTEXT           "Títilo 4:",IDC_STATIC,18,98,25,9
+    EDITTEXT        IDC_EDIT6,45,113,86,14,ES_AUTOHSCROLL
+    LTEXT           "Títilo 5:",IDC_STATIC,18,116,25,9
+    EDITTEXT        IDC_EDIT7,169,41,86,14,ES_AUTOHSCROLL
+    LTEXT           "Títilo 6:",IDC_STATIC,141,44,25,9
+    EDITTEXT        IDC_EDIT8,169,59,86,14,ES_AUTOHSCROLL
+    LTEXT           "Títilo 7:",IDC_STATIC,141,62,25,9
+    EDITTEXT        IDC_EDIT9,169,77,86,14,ES_AUTOHSCROLL
+    LTEXT           "Títilo 8:",IDC_STATIC,141,80,25,9
+    EDITTEXT        IDC_EDIT10,169,95,86,14,ES_AUTOHSCROLL
+    LTEXT           "Títilo 9:",IDC_STATIC,141,98,25,9
+    EDITTEXT        IDC_EDIT11,169,113,86,14,ES_AUTOHSCROLL
+    LTEXT           "Títilo 10:",IDC_STATIC,138,116,28,9
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 196, 98
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION
+CAPTION "Área restrita"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,106,69,50,14
+    PUSHBUTTON      "&Cancelar",IDCANCEL,39,69,50,14
+    EDITTEXT        IDC_EDIT1,73,45,68,13,ES_PASSWORD | ES_AUTOHSCROLL,
+                    WS_EX_STATICEDGE
+    LTEXT           "Você esta pretes a entrar em uma área restrita,",
+                    IDC_STATIC,25,17,149,9
+    LTEXT           "para continuar digite a senha de acesso.",IDC_STATIC,33,
+                    26,129,9
+    LTEXT           "Senha:",IDC_STATIC,43,47,24,9
+    GROUPBOX        "Login",IDC_STATIC,7,7,182,84
+END
+
+IDD_DIALOG4 DIALOG DISCARDABLE  0, 0, 194, 84
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,101,55,50,14
+    PUSHBUTTON      "&Cancelar",IDCANCEL,39,55,50,14
+    LTEXT           "Static",IDC_STATIC1,25,14,150,8
+    LTEXT           "Nome da lista:",IDC_STATIC,30,34,45,8
+    GROUPBOX        "",IDC_STATIC,7,3,180,74
+    COMBOBOX        IDC_COMBO1,78,30,77,49,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG5 DIALOGEX 0, 0, 442, 281
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Assistente para novos dados"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Adicionar",IDOK,227,260,50,14
+    PUSHBUTTON      "&Cancelar",IDCANCEL,161,260,50,14
+    EDITTEXT        IDC_EDIT1,186,23,97,12,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    LTEXT           "Static",IDC_STATIC1,157,25,25,8
+    GROUPBOX        "Static",IDC_STATIC2,7,41,140,71
+    EDITTEXT        IDC_EDIT2,13,51,130,54,ES_MULTILINE | WS_VSCROLL
+    LTEXT           "Preencha todas as colunas necessarias para a adição de um novo objeto na lista atual.",
+                    IDC_STATIC,84,7,275,8
+    GROUPBOX        "Static",IDC_STATIC3,151,41,141,71
+    EDITTEXT        IDC_EDIT3,155,51,130,54,ES_MULTILINE | WS_VSCROLL
+    GROUPBOX        "Static",IDC_STATIC4,295,41,140,71
+    EDITTEXT        IDC_EDIT4,299,51,130,54,ES_MULTILINE | WS_VSCROLL
+    GROUPBOX        "Static",IDC_STATIC5,7,112,140,70
+    EDITTEXT        IDC_EDIT5,13,122,130,54,ES_MULTILINE | WS_VSCROLL
+    GROUPBOX        "Static",IDC_STATIC6,151,112,141,70
+    EDITTEXT        IDC_EDIT6,155,122,130,54,ES_MULTILINE | WS_VSCROLL
+    GROUPBOX        "Static",IDC_STATIC7,295,112,140,70
+    EDITTEXT        IDC_EDIT7,299,122,130,54,ES_MULTILINE | WS_VSCROLL
+    GROUPBOX        "Static",IDC_STATIC8,7,182,140,70
+    EDITTEXT        IDC_EDIT8,11,192,130,54,ES_MULTILINE | WS_VSCROLL
+    GROUPBOX        "Static",IDC_STATIC9,151,182,141,70
+    EDITTEXT        IDC_EDIT9,155,192,130,54,ES_MULTILINE | WS_VSCROLL
+    GROUPBOX        "Static",IDC_STATIC10,295,182,140,70
+    EDITTEXT        IDC_EDIT10,299,192,130,54,ES_MULTILINE | WS_VSCROLL
+END
+
+IDD_DIALOG6 DIALOGEX 0, 0, 470, 319
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Procurar",IDOK,74,58,50,14
+    GROUPBOX        "Static",IDC_STATIC2,18,78,140,71
+    EDITTEXT        IDC_EDIT2,24,88,130,54,ES_MULTILINE | WS_VSCROLL
+    GROUPBOX        "Static",IDC_STATIC3,162,78,141,71
+    EDITTEXT        IDC_EDIT3,166,88,130,54,ES_MULTILINE | WS_VSCROLL
+    GROUPBOX        "Static",IDC_STATIC4,306,78,140,71
+    EDITTEXT        IDC_EDIT4,310,88,130,54,ES_MULTILINE | WS_VSCROLL
+    GROUPBOX        "Static",IDC_STATIC5,18,149,140,70
+    EDITTEXT        IDC_EDIT5,24,159,130,54,ES_MULTILINE | WS_VSCROLL
+    GROUPBOX        "Static",IDC_STATIC6,162,149,141,70
+    EDITTEXT        IDC_EDIT6,166,159,130,54,ES_MULTILINE | WS_VSCROLL
+    GROUPBOX        "Static",IDC_STATIC7,306,149,140,70
+    EDITTEXT        IDC_EDIT7,310,159,130,54,ES_MULTILINE | WS_VSCROLL
+    GROUPBOX        "Static",IDC_STATIC8,18,219,140,70
+    EDITTEXT        IDC_EDIT8,22,229,130,54,ES_MULTILINE | WS_VSCROLL
+    GROUPBOX        "Static",IDC_STATIC9,162,219,141,70
+    EDITTEXT        IDC_EDIT9,166,229,130,54,ES_MULTILINE | WS_VSCROLL
+    GROUPBOX        "Static",IDC_STATIC10,306,219,140,70
+    EDITTEXT        IDC_EDIT10,310,229,130,54,ES_MULTILINE | WS_VSCROLL
+    EDITTEXT        IDC_EDIT1,63,32,85,12,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    LTEXT           "Static",IDC_STATIC1,23,35,35,8
+    GROUPBOX        "Opções referentes a pesquisa",IDC_STATIC,306,10,140,67
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 233
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 138
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 268
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 156
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 187
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 77
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 435
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 274
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 463
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 312
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "Seja-bem vindo ao Assistente para novas listas.bmp"
+#endif    // Portuguese (Brazil) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

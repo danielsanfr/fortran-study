@@ -1,0 +1,16 @@
+!MS$FREEFORM
+! Microsoft Developer Studio generated include file.
+! Used by Script1.rc
+!
+      integer, parameter :: IDD_DIALOG1                     = 102
+      integer, parameter :: IDB_BITMAP2                     = 104
+      integer, parameter :: IDD_DIALOG2                     = 105
+      integer, parameter :: IDD_DIALOG3                     = 106
+      integer, parameter :: IDD_DIALOG4                     = 107
+      integer, parameter :: IDC_STATIC1                     = 1000
+      integer, parameter :: IDC_STATIC2                     = 1001
+      integer, parameter :: IDC_EDIT1                       = 1004
+      integer, parameter :: IDC_EDIT2                       = 1005
+      integer, parameter :: IDC_EDIT3                       = 1006
+      integer, parameter :: IDC_STATIC3                     = 1007
+      integer, parameter :: IDC_STATIC                      = 65535
